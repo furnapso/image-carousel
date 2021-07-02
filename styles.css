@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    height: 50px;
+    cursor: pointer;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+.image {
+    width: 300px;
+    height: auto;
+}
+
+.wrapper {
+    width: 300px;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    position: relative;
+    transition: transform 1s ease;
+}
